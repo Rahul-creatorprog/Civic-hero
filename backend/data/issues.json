@@ -1,0 +1,309 @@
+[
+  {
+    "id": "REP-2026-9078",
+    "title": "Roads & Potholes issue in our neighborhood",
+    "description": "Reported by local resident for municipal repair.",
+    "category": "Roads & Potholes",
+    "categoryIcon": "🚧",
+    "urgency": "Medium",
+    "status": "Reported",
+    "statusColor": "purple",
+    "location": {
+      "address": "Near 13.0875, 80.2047 (Current GPS location)",
+      "lat": 12.979243699659637,
+      "lng": 77.6025524018123
+    },
+    "reporter": {
+      "name": "Active Citizen",
+      "badge": "Active Citizen",
+      "type": "citizen"
+    },
+    "photo": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 1,
+    "createdAt": "2026-11-26T12:26:13.994Z",
+    "updatedAt": "2026-11-26T12:26:13.994Z",
+    "department": "Pending Department Assignment",
+    "assignedOfficer": "Unassigned",
+    "estimatedCompletion": null,
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-26T12:26:13.994Z",
+        "actor": "Active Citizen (Citizen)",
+        "note": "Issue reported successfully under \"Roads & Potholes\". Priority assessed as Medium."
+      }
+    ],
+    "resolution": null,
+    "comments": []
+  },
+  {
+    "id": "REP-2026-1001",
+    "title": "Deep Pothole near Sunrise Senior Living & School Crossing",
+    "description": "Large dangerous pothole right in the middle of 4th Avenue crossing. Two elderly pedestrians almost tripped yesterday, and school children cross here daily. Water collects inside when it rains.",
+    "category": "Roads & Potholes",
+    "categoryIcon": "🚧",
+    "urgency": "High",
+    "status": "In Progress",
+    "statusColor": "amber",
+    "location": {
+      "address": "Corner of 4th Ave & Oak Street, Ward 5",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "reporter": {
+      "name": "Grandpa Joseph",
+      "badge": "Community Elder",
+      "type": "elder"
+    },
+    "photo": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 28,
+    "createdAt": "2026-11-20T09:30:00.000Z",
+    "updatedAt": "2026-11-22T14:15:00.000Z",
+    "department": "Public Works & Road Maintenance",
+    "assignedOfficer": "Eng. Rajesh Kumar (Roads Div.)",
+    "estimatedCompletion": "2026-11-26",
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-20T09:30:00.000Z",
+        "actor": "Citizen (Grandpa Joseph)",
+        "note": "Issue reported with voice dictation & photo."
+      },
+      {
+        "status": "Under Review",
+        "timestamp": "2026-11-21T10:00:00.000Z",
+        "actor": "Municipal Helpdesk",
+        "note": "Report verified. Assigned priority HIGH due to proximity to senior home and school."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-22T14:15:00.000Z",
+        "actor": "Public Works Department",
+        "note": "Work order #PW-8821 dispatched. Road patching crew scheduled for repair."
+      }
+    ],
+    "resolution": null,
+    "comments": [
+      {
+        "id": "c1",
+        "author": "Priya Sharma",
+        "role": "Parent",
+        "text": "Thank you for reporting! My daughter rides her bicycle through this road every morning.",
+        "createdAt": "2026-11-20T11:45:00.000Z"
+      },
+      {
+        "id": "c2",
+        "author": "Municipal Helpdesk",
+        "role": "Authority",
+        "text": "Crew has visited and barricaded the pothole with safety cones pending asphalt fill.",
+        "createdAt": "2026-11-22T14:20:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "REP-2026-1002",
+    "title": "Broken Swing & Exposed Chains in Children's Community Park",
+    "description": "The red swing has a broken metal hook and sharp exposed edges. It is unsafe for little kids playing in the evening.",
+    "category": "Parks & Playgrounds",
+    "categoryIcon": "🛝",
+    "urgency": "Medium",
+    "status": "Resolved",
+    "statusColor": "emerald",
+    "location": {
+      "address": "Greenwood Community Park, Kids Zone, Ward 3",
+      "lat": 12.9785,
+      "lng": 77.5995
+    },
+    "reporter": {
+      "name": "Leo (Age 9)",
+      "badge": "Junior Civic Hero ⭐",
+      "type": "kid"
+    },
+    "photo": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 42,
+    "createdAt": "2026-11-18T16:00:00.000Z",
+    "updatedAt": "2026-11-21T11:00:00.000Z",
+    "department": "Parks & Recreation Department",
+    "assignedOfficer": "Officer Anita Desai",
+    "estimatedCompletion": "2026-11-21",
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-18T16:00:00.000Z",
+        "actor": "Junior Hero (Leo)",
+        "note": "Reported using Kid Mode with photo."
+      },
+      {
+        "status": "Under Review",
+        "timestamp": "2026-11-19T09:00:00.000Z",
+        "actor": "Parks Department",
+        "note": "Safety inspection passed to playground maintenance contractor."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-20T10:30:00.000Z",
+        "actor": "Maintenance Team",
+        "note": "Replacement heavy-duty rubber seat and rust-proof chains fitted."
+      },
+      {
+        "status": "Resolved",
+        "timestamp": "2026-11-21T11:00:00.000Z",
+        "actor": "Parks Director",
+        "note": "Swing replaced, inspected for safety standard BS-EN 1176. Park is safe again!"
+      }
+    ],
+    "resolution": {
+      "proofPhoto": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=800&q=80",
+      "notes": "Installed brand new dual safety swing with rubberized chains. Safety certified by inspector.",
+      "completedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "comments": [
+      {
+        "id": "c3",
+        "author": "Leo (Junior Hero)",
+        "role": "Citizen",
+        "text": "Yay! The new swing is super cool and safe now. Thank you officers!",
+        "createdAt": "2026-11-21T15:20:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "REP-2026-1003",
+    "title": "Dark Streetlamp Flickering continuously on 7th Cross Road",
+    "description": "The solar street lamp near house #42 has been blinking and completely going dark after 8 PM. Senior citizens walking after dinner cannot see uneven sidewalk stones.",
+    "category": "Street Lighting & Electricity",
+    "categoryIcon": "💡",
+    "urgency": "High",
+    "status": "Under Review",
+    "statusColor": "blue",
+    "location": {
+      "address": "7th Cross Road, Near Post Office, Ward 2",
+      "lat": 12.965,
+      "lng": 77.605
+    },
+    "reporter": {
+      "name": "Mrs. Savitri Devi",
+      "badge": "Neighborhood Watch",
+      "type": "elder"
+    },
+    "photo": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 19,
+    "createdAt": "2026-11-22T19:40:00.000Z",
+    "updatedAt": "2026-11-23T08:30:00.000Z",
+    "department": "City Electrical & Energy Board",
+    "assignedOfficer": "Unassigned",
+    "estimatedCompletion": "2026-11-25",
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-22T19:40:00.000Z",
+        "actor": "Citizen (Mrs. Savitri Devi)",
+        "note": "Reported via Large Text High-Contrast Mode."
+      },
+      {
+        "status": "Under Review",
+        "timestamp": "2026-11-23T08:30:00.000Z",
+        "actor": "Electrical Dispatcher",
+        "note": "Logged into evening patrol queue. Technician unit 4 will inspect bulb and wiring."
+      }
+    ],
+    "resolution": null,
+    "comments": []
+  },
+  {
+    "id": "REP-2026-1004",
+    "title": "Overflowing Public Garbage Dump & Blocked Recycling Bin",
+    "description": "Garbage has not been collected for 3 days. Animals are scattering plastic bags, causing bad odor and health hazard for the neighborhood.",
+    "category": "Sanitation & Waste",
+    "categoryIcon": "🗑️",
+    "urgency": "High",
+    "status": "In Progress",
+    "statusColor": "amber",
+    "location": {
+      "address": "Market Road Corner, Opposite Vegetable Bazaar, Ward 4",
+      "lat": 12.973,
+      "lng": 77.585
+    },
+    "reporter": {
+      "name": "Arun Patel",
+      "badge": "Active Citizen",
+      "type": "citizen"
+    },
+    "photo": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 53,
+    "createdAt": "2026-11-21T07:15:00.000Z",
+    "updatedAt": "2026-11-22T16:00:00.000Z",
+    "department": "Solid Waste & Sanitation Management",
+    "assignedOfficer": "Supervisor Suresh Gowda",
+    "estimatedCompletion": "2026-11-24",
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-21T07:15:00.000Z",
+        "actor": "Citizen (Arun Patel)",
+        "note": "Reported with photos and location tag."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-22T16:00:00.000Z",
+        "actor": "Sanitation Supervisor",
+        "note": "Compactor truck dispatched for immediate clearance; sanitization spray scheduled."
+      }
+    ],
+    "resolution": null,
+    "comments": [
+      {
+        "id": "c4",
+        "author": "Meera Sen",
+        "role": "Citizen",
+        "text": "Stray dogs are gathering around it. Please clear immediately!",
+        "createdAt": "2026-11-21T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "REP-2026-1005",
+    "title": "Clean Water Pipe Leaking into Roadway",
+    "description": "Underground drinking water pipeline seems to have burst. Pure water is flowing onto the pedestrian walkway for the past 6 hours.",
+    "category": "Water Supply & Leakage",
+    "categoryIcon": "💧",
+    "urgency": "High",
+    "status": "Reported",
+    "statusColor": "purple",
+    "location": {
+      "address": "Opposite Civil Hospital Gate 2, Ward 1",
+      "lat": 12.98,
+      "lng": 77.59
+    },
+    "reporter": {
+      "name": "Kabir (Age 11)",
+      "badge": "Junior Civic Hero ⭐",
+      "type": "kid"
+    },
+    "photo": "https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?auto=format&fit=crop&w=800&q=80",
+    "upvotes": 39,
+    "createdAt": "2026-11-23T11:00:00.000Z",
+    "updatedAt": "2026-11-26T12:25:21.592Z",
+    "department": "Water Supply & Sewerage Board",
+    "assignedOfficer": "Unassigned",
+    "estimatedCompletion": "2026-11-25",
+    "timeline": [
+      {
+        "status": "Reported",
+        "timestamp": "2026-11-23T11:00:00.000Z",
+        "actor": "Junior Hero (Kabir)",
+        "note": "Water wastage reported via Kid Hero mode."
+      }
+    ],
+    "resolution": null,
+    "comments": [
+      {
+        "id": "c_1795695921592",
+        "author": "sdd",
+        "role": "Citizen",
+        "text": "dd",
+        "createdAt": "2026-11-26T12:25:21.592Z"
+      }
+    ]
+  }
+]

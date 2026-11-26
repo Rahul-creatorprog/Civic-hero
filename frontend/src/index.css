@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Accessibility: High Contrast Mode */
+.high-contrast {
+  filter: contrast(135%);
+  --tw-bg-opacity: 1;
+}
+
+.high-contrast body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .bg-white {
+  background-color: #0d1117 !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .bg-slate-50,
+.high-contrast .bg-slate-100 {
+  background-color: #161b22 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .text-slate-600,
+.high-contrast .text-slate-500,
+.high-contrast .text-slate-700 {
+  color: #f0f6fc !important;
+}
+
+.high-contrast button {
+  border-width: 2px !important;
+  border-color: #ffffff !important;
+}
+
+/* Accessibility: Font Size Scaling */
+.text-scale-normal {
+  font-size: 100%;
+}
+
+.text-scale-large {
+  font-size: 118%;
+}
+
+.text-scale-xlarge {
+  font-size: 135%;
+}
+
+/* Kid Mode playful styling */
+.kid-mode {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.kid-mode .card-bounce:hover {
+  transform: translateY(-4px) scale(1.02);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Pulse badge animation */
+@keyframes soft-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.75; }
+}
+
+.animate-soft-pulse {
+  animation: soft-pulse 2s infinite ease-in-out;
+}
